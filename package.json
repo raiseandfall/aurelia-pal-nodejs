@@ -41,8 +41,8 @@
   },
   "dependencies": {
     "aurelia-pal": "^1.8.2",
-    "jsdom": "^25.0.0",
-    "tough-cookie": "^4.1.4"
+    "jsdom": "^26.1.0",
+    "tough-cookie": "^5.1.2"
   },
   "devDependencies": {
     "@types/jasmine": "^4.0.3",
