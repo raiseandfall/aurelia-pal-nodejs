@@ -1,4 +1,3 @@
-/// <reference path="nodejs-global.d.ts" />
 export { ensurePerformance } from './nodejs-pal-builder';
 /**
 * Initializes the PAL with the NodeJS-targeted implementation.

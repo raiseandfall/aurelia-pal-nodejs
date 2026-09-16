@@ -6,6 +6,9 @@
   "helpers": [
     "helpers/**/*.ts"
   ],
-  "stopSpecOnExpectationFailure": false,
-  "random": false
+  "jsLoader": "require",
+  "env": {
+    "stopSpecOnExpectationFailure": false,
+    "random": false
+  }
 }

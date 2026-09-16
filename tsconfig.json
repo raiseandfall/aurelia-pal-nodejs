@@ -1,14 +1,17 @@
 {
   "compilerOptions": {
     "target": "es6",
+    "strict": false,
     "module": "commonjs",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": false,
     "moduleResolution": "node",
+    "ignoreDeprecations": "6.0",
     "stripInternal": true,
     "preserveConstEnums": true,
     "removeComments": true,
-    "lib": ["es2018"]
+    "lib": ["es2018"],
+    "types": ["node", "jasmine"]
   },
   "exclude": [
     "node_modules"
