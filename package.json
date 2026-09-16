@@ -45,16 +45,16 @@
     "tough-cookie": "^5.1.2"
   },
   "devDependencies": {
-    "@types/jasmine": "^4.0.3",
+    "@types/jasmine": "^6.0.0",
     "@types/jsdom": "^21.1.1",
-    "@types/node": "^16.11.36",
-    "jasmine": "^4.1.0",
-    "jasmine-core": "^4.1.1",
+    "@types/node": "^26.6.1",
+    "jasmine": "^6.3.0",
+    "jasmine-core": "^6.3.0",
     "rimraf": "^3.0.2",
     "standard-version": "^9.5.0",
     "ts-node": "^10.7.0",
     "tslib": "^2.4.0",
-    "typedoc": "^0.22.15",
-    "typescript": "^4.6.4"
+    "typedoc": "^0.28.20",
+    "typescript": "^6.0.3"
   }
 }
