@@ -1,6 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.reset = exports.globalize = exports.initialize = exports.ensurePerformance = void 0;
+exports.ensurePerformance = void 0;
+exports.initialize = initialize;
+exports.globalize = globalize;
+exports.reset = reset;
 const aurelia_pal_1 = require("aurelia-pal");
 const nodejs_pal_builder_1 = require("./nodejs-pal-builder");
 var nodejs_pal_builder_2 = require("./nodejs-pal-builder");
@@ -63,7 +66,6 @@ function initialize() {
         });
     });
 }
-exports.initialize = initialize;
 function createBrowserGlobals() {
     Object.getOwnPropertyNames(aurelia_pal_1.PLATFORM.global)
         .filter(prop => typeof global[prop] === 'undefined' && prop !== 'undefined')
@@ -87,10 +89,8 @@ function globalize() {
     };
     return global;
 }
-exports.globalize = globalize;
 function reset(window) {
     if (window) {
         window.close();
     }
 }
-exports.reset = reset;

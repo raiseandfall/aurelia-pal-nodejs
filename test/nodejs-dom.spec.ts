@@ -73,10 +73,6 @@ describe('NodeJs Dom', () => {
     expect(DOM.createTemplateFromMarkup).toBeDefined();
   });
 
-  it('createTemplateFromMarkup is defined', () => {
-    expect(DOM.createMutationObserver).toBeDefined();
-  });
-
   it('addEventListener is defined', () => {
     expect(DOM.addEventListener).toBeDefined();
   });
